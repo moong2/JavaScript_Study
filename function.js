@@ -107,3 +107,25 @@ const simpleMultiply = (a, b)=>{
 (function hello(){
     console.log('IIFE');
 })();
+
+
+
+function calculate(command, a, b){
+    let result;
+    switch(command){
+        case 'add' :
+            return a + b;
+        case 'substract' :
+            return a - b;
+        case 'divide' :
+            return a / b;
+        case 'multiply' :
+            return a * b;
+        case 'remainder' : 
+            return a % b;
+        default :
+            console.log('command is wrong!');
+            return '';
+    }
+}
+console.log(calculate('divide', 2, 3));
