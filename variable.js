@@ -62,8 +62,8 @@ console.log(gSymbol1 === gSymbol2);
 console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`); 
 
 
-const moong2 = {name : 'moong2', age = '20'};
-moong2.age = 22;
+// const moong2 = {name : 'moong2', age = 20};
+// moong2.age = 22;
 
 
 //5.Dynamic typing : dynamically typed language
